@@ -1,0 +1,36 @@
+/*
+Theme Name:Festival
+Theme URI:http://example.com/
+Description:Thème enfant du thème Twenty Twelve
+Author: degois
+Author URI:http://example.com/about/
+Template:twentytwelve
+Version:0.1.0
+*/
+
+
+@import url("../twentytwelve/style.css");
+
+.main-navigation .current-menu-item.rouge  > a , .main-navigation li.rouge a{
+	color: red
+}
+
+.main-navigation .current-menu-item.orange > a, .main-navigation li.orange a{
+	color: orange;
+}
+
+.main-navigation .current-menu-item.jaune > a, .main-navigation li.jaune a{
+	color: yellow;
+}
+
+.main-navigation .current-menu-item.vert > a, .main-navigation li.vert a{
+	color: green;
+}
+
+.main-navigation .current-menu-item.bleuc > a, .main-navigation li.bleuc a{
+	color: blue;
+}
+
+.main-navigation .current-menu-item.violet > a, .main-navigation li.violet a{
+	color: purple;
+}
